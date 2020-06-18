@@ -1,3 +1,59 @@
 body {
-  /* background: red; */
+  background: #222;
+  color: White;
+  display: block;
+}
+.header {
+  height: 120px;
+  padding-top: 20px ;
+}
+.wrapper {
+  width: 100%;
+  height: 40px;
+  background-color: lightskyblue;
+  background-image: -webkit-linear-gradient(top, lightskyblue , dodgerblue );
+	background-image:         linear-gradient(to bottom, lightskyblue , dodgerblue );
+}
+.logo {
+  font-family: 'Signika', sans-serif;
+  text-shadow: 1px 1px 3px #888;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 35px;
+  width: 70%;
+  text-align: center;
+  /* align-content: center; */
+  float: center;
+}
+.telefono {
+  float: right;
+  color: white;
+  line-height: 40px;
+  te
+}
+.logosubwrapper {
+	/* width:800px; */
+	margin:0 auto;
+}
+
+.nav {
+  display: flex;
+  margin-top: 20px;
+}
+.nav .selected a
+{
+	/* background: red !important; */
+}
+.nav li  {
+	line-height: 50px;
+	text-align: center;
+	width:70px;
+	display:inline-flex;
+	height:50px;
+	text-decoration: none;
+	color:white;
+	/* font-size: 17px; */
+	font-weight: bold;
+	/* text-shadow: 1px 1px 3px #000; */
 }
