@@ -4,17 +4,21 @@ body {
   display: block;
 }
 .header {
-  height: 120px;
+  height: 65px;
   padding-top: 20px ;
+  
 }
 .wrapper {
-  width: 100%;
+  width:95%;
   height: 40px;
   background-color: lightskyblue;
+  
   background-image: -webkit-linear-gradient(top, lightskyblue , dodgerblue );
-	background-image:         linear-gradient(to bottom, lightskyblue , dodgerblue );
+  background-image:         linear-gradient(to bottom, lightskyblue , dodgerblue );
+  margin: 0 auto;
 }
 .logo {
+  
   font-family: 'Signika', sans-serif;
   text-shadow: 1px 1px 3px #888;
   color: white;
@@ -30,16 +34,17 @@ body {
   float: right;
   color: white;
   line-height: 40px;
-  te
+  margin-right: 20px;
 }
 .logosubwrapper {
 	/* width:800px; */
-	margin:0 auto;
+  margin:0 auto;
+  border: 1px solid red;
 }
 
 .nav {
   display: flex;
-  margin-top: 20px;
+  
 }
 .nav .selected a
 {
@@ -54,6 +59,21 @@ body {
 	text-decoration: none;
 	color:white;
 	/* font-size: 17px; */
-	font-weight: bold;
+  font-weight: bold;
+  justify-content: center;
 	/* text-shadow: 1px 1px 3px #000; */
+}
+h2 {
+  text-align: center;
+}
+.section img {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: auto;
+  
+
+}
+.section p {
+  text-align: center;
 }
